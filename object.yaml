@@ -1,0 +1,13 @@
+path: ./garbage_dataset  # 数据集路径
+train: train/images      # 训练集图像路径
+val: val/images          # 验证集图像路径
+test: test/images        # 测试集图像路径
+
+# 物品检测类别（示例，实际使用COCO数据集80类）
+names:
+  0: paper     # 纸
+  1: plastic   # 塑料
+  2: metal     # 金属
+  3: glass     # 玻璃
+  4: cardboard # 纸板
+  5: kitchen   # 餐厨垃圾
